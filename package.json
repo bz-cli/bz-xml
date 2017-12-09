@@ -1,0 +1,32 @@
+{
+  "name": "bz-xml",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "author": {
+    "name": "Carlos Camilo Lobo Ulloque",
+    "email": "carloscamilo.loboulloque@gmail.com"
+  },
+  "description": "XML transformer for bz-def.",
+  "keywords": [
+    "Bizagi",
+    "Bizagi Studio",
+    "Custom Connector",
+    "Connector Editor"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "scripts": {
+    "test": "node dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Platekun/bz-xml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Platekun/bz-xml/issues"
+  }
+}
