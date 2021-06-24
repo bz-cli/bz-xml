@@ -20,6 +20,7 @@
     "babel-preset-env": "^1.6.1"
   },
   "scripts": {
+    "dev": "npx babel src --out-dir dist",
     "test": "node dist"
   },
   "repository": {
