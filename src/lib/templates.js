@@ -54,7 +54,7 @@ export const Error = (targetType) =>
           <xs:complexType>
             <xs:sequence>
               <xs:element name="error" type="xs:string" />
-              <xs:element name="success" type="xs:boolean" />
+              <xs:element name="message" type="xs:string" />
               <xs:element name="status" type="xs:integer" />
             </xs:sequence>
           </xs:complexType>
